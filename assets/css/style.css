@@ -47,8 +47,7 @@ img,
 .category-main,
 .cover-content,
 .follow-content,
-.fashion-list,
-.footer-bottom {
+.fashion-list {
   margin: 50px 0;
 }
 .intro-content-left p,
@@ -146,8 +145,15 @@ h1 {
 .bold-style {
   font-weight: bold;
 }
+.decor-style {
+  text-decoration: line-through;
+  margin-right: 10px;
+}
 .gray-style {
-  color: gray;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sale-price {
+  color: #ff6f61;
 }
 button i {
   margin-right: 5px;
@@ -207,9 +213,6 @@ button i {
   grid-template-columns: auto auto;
   gap: 20px;
 }
-.image-item span {
-  color: red;
-}
 
 /* Sale and Hot item */
 .sale-item {
@@ -222,7 +225,7 @@ button i {
   position: absolute;
 }
 .hot-item {
-  background-color: red !important;
+  background-color: rgba(255, 111, 97, 1) !important;
 }
 
 /* Product content */
@@ -395,6 +398,7 @@ h2 {
 }
 
 /* Footer content */
+
 .footer-top {
   min-height: 200px;
   align-items: normal;
@@ -414,11 +418,19 @@ h2 {
 .footer-share-icon {
   width: 60%;
 }
+.footer-bottom-width {
+  background-color: #1e2832;
+  color: white;
+  padding: 10px 0;
+  margin-top: 100px;
+}
 .footer-bottom {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
+
 .footer-bottom img {
   max-width: 20%;
   height: 100%;
