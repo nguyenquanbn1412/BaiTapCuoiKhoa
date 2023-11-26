@@ -24,14 +24,22 @@ body {
   height: 100%;
   position: relative;
 }
-li,
-button,
-i,
-img,
-.input-submit input,
-.footer-item-link p,
-.header-top-right:hover {
+.full-width-color {
+  width: 100%;
+  background-color: rgb(30, 40, 50, 0.05);
+  padding: 30px 0;
+}
+li:hover,
+i:hover,
+img:hover,
+.logo-2 button:hover,
+.input-submit input:hover,
+.product-menu button:hover,
+.intro-content-left button:hover,
+.footer-item-link p:hover,
+.header-top-right-item:hover {
   cursor: pointer;
+  color: darkorange;
 }
 .category-content-left img,
 .category-content-right .image-item img,
@@ -43,9 +51,14 @@ img,
 .none-cursor-pointer {
   cursor: auto;
 }
+.all-product {
+  font-weight: bold;
+}
 .intro-content,
+.brand-content,
 .category-main,
 .cover-content,
+.follow-content,
 .follow-content,
 .fashion-list {
   margin: 50px 0;
@@ -69,7 +82,6 @@ img,
 /* Header content */
 .header-content {
   width: 100%;
-  margin-top: 31px;
 }
 .header-top {
   height: 65%;
@@ -101,7 +113,6 @@ img,
 /* Introduce content */
 .intro-content {
   width: 100%;
-  background-color: rgb(30, 40, 50, 0.05);
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -350,9 +361,7 @@ h2 {
 }
 
 /* Follow content */
-.follow-content {
-  width: 100%;
-}
+
 .fashion-list {
   width: 100%;
   height: 45%;
@@ -375,7 +384,7 @@ h2 {
   position: absolute;
 
   bottom: 5px;
-  background-color: #fff;
+  background-color: transparent;
 }
 .email-submit div input:focus {
   outline: none;
@@ -398,7 +407,6 @@ h2 {
 }
 
 /* Footer content */
-
 .footer-top {
   min-height: 200px;
   align-items: normal;
