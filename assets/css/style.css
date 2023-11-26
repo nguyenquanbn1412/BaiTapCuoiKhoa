@@ -110,16 +110,18 @@ img,
 
 /* Flower image */
 .frame-1 {
-  height: 90px;
+  width: 8%;
+  height: 20%;
   position: absolute;
   left: -12%;
-  top: 50%;
+  top: 60%;
 }
 .frame-2 {
-  height: 180px;
+  width: 10%;
+  height: 30%;
   position: absolute;
   right: -12%;
-  top: 40%;
+  top: 38%;
 }
 
 /* intro-content-left */
