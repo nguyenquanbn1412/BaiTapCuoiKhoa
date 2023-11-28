@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 body {
   font-size: 16px;
@@ -54,6 +55,7 @@ img:hover,
 }
 .all-product {
   font-weight: bold;
+  color: black;
 }
 .intro-content,
 .brand-content,
@@ -74,7 +76,11 @@ img:hover,
   min-width: 460px;
   margin: auto;
 }
-
+.header-bottom-menu,
+.product-navbar {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
 /* Container */
 .content-parent {
   width: 100%;
@@ -207,7 +213,7 @@ button i {
 }
 .category-content-title h2 {
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 400;
 }
 .category-content {
   width: 100%;
@@ -256,6 +262,7 @@ h2 {
 .product-navbar {
   max-width: 80%;
   list-style-type: none;
+  color: rgba(0, 0, 0, 0.5);
 }
 .product-navbar li {
   margin-right: 20px;
@@ -452,6 +459,7 @@ h2 {
   }
   h1 {
     font-size: 50px;
+    font-weight: 300;
   }
   h2,
   .coral-trademark-font {
